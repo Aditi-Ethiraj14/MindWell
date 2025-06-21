@@ -80,6 +80,16 @@ npm start
 - Session-based authentication with secure password hashing
 - Protected routes and user context management
 
+### Chat Integration
+- Integration with n8n chatbot at custom webhook URL
+- Opens in popup window to avoid CORS restrictions
+- Emergency notification in case of triggered inputs to concerned authorities via Discord.
+
+### Telegram Mood Check-in and Response (Agentic AI via n8n)
+- Sends mood check-in messages every 6 hours via Telegram
+- Analyzes user replies using AI to detect sentiment
+- Responds with tailored suggestions and prompts to log in or chat with their AI buddy in-app
+
 ### Mental Health Activities
 - Breathing exercises with auto-completion
 - Activity timer with point rewards
@@ -91,10 +101,9 @@ npm start
 - Daily streak tracking
 - User level progression
 
-### Chat Integration
-- Floating chat button (appears only after login)
-- Integration with n8n chatbot at custom webhook URL
-- Opens in popup window to avoid CORS restrictions
+
+
+
 
 ## License
 
