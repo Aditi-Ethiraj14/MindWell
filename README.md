@@ -102,7 +102,8 @@ npm start
 - User level progression
 
 
-
+## Project Snippet
+![image](https://github.com/user-attachments/assets/679932dc-e444-4f11-9dfd-91bd4c037fd4)
 
 
 ## License
