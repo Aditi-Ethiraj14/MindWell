@@ -2,6 +2,9 @@
 
 A comprehensive mental health application that combines gamification elements with n8n chatbot integration to encourage positive mental wellness habits.
 
+## Project Snippet
+![image](https://github.com/user-attachments/assets/679932dc-e444-4f11-9dfd-91bd4c037fd4)
+
 ## Features
 
 - **Authentication System**: Secure login/registration with session-based auth
@@ -100,10 +103,6 @@ npm start
 - Achievement unlocking system
 - Daily streak tracking
 - User level progression
-
-
-## Project Snippet
-![image](https://github.com/user-attachments/assets/679932dc-e444-4f11-9dfd-91bd4c037fd4)
 
 
 ## License
