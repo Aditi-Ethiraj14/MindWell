@@ -1,0 +1,72 @@
+{
+  "name": "Telegram Scheduled Trigger",
+  "nodes": [
+    {
+      "parameters": {
+        "chatId": "2133560283",
+        "text": "Hey! This is your Mental Health AI Companion MindWell! Just checking in buddy? How are you feeling?",
+        "additionalFields": {}
+      },
+      "id": "59711791-1215-4847-bc56-34ebd51c8c08",
+      "name": "Send Check-in",
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1,
+      "position": [
+        360,
+        0
+      ],
+      "webhookId": "9ba6dbbd-a70e-4954-80a0-abe53077718f",
+      "credentials": {
+        "telegramApi": {
+          "id": "LEoQgy9ai5bJfuzM",
+          "name": "Telegram account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "hours",
+              "hoursInterval": 6,
+              "triggerAtMinute": 1
+            }
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        0,
+        0
+      ],
+      "id": "40d2a6d6-e430-4ba7-9aed-7359cda5a7be",
+      "name": "Schedule Trigger"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Schedule Trigger": {
+      "main": [
+        [
+          {
+            "node": "Send Check-in",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": true,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "2bab0b96-3461-41a5-8e3d-d04e6cc6a751",
+  "meta": {
+    "instanceId": "dd701982377c7d59803bba449380c8432156d06e6143c6b0aadabb1719c92d34"
+  },
+  "id": "47LkARIXPoOAhC9d",
+  "tags": []
+}
