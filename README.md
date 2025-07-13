@@ -107,4 +107,4 @@ npm start
 
 ## License
 
-MIT License - feel free to use this project for your own mental health applications.
+MIT License - Aditi Ethiraj
